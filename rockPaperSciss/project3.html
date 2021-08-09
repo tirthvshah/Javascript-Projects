@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="project3.css">
+    <title>ROCK PAPER SCISSOR</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2>Rock paper Scissor</h2>
+        <button type="button" class="btn btn-success" onClick="window.location.reload();">Refresh</button>
+        
+        <div class="flex-box" id = "flexBoxGen">
+            <img id="rock" src="rock.jpg" height=150 width=150 alt="" onclick="rpsGame(this)">
+            <img id="paper" src="paper.jpg" height=150 width=150 alt="" onclick="rpsGame(this)">        
+            <img id="scissor" src="sci.jpg" height=150 width=150 alt="" onclick="rpsGame(this)">
+        </div>
+    </div>
+    
+    <script src="project3.js"></script>
+</body>
+</html>
